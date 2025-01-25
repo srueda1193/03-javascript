@@ -1,0 +1,1 @@
+console.log("Este es un archivo para el ejercicio 1")
