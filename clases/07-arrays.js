@@ -77,3 +77,80 @@ console.log(animals.slice(2, -1));
 
 console.log(animals);
 
+add(3, 5);
+
+function add(a , b){
+    console.log(a +b);
+    return a + b;
+}
+
+add(3, 6);
+
+
+
+function maxBetween3Numb(n1, n2, n3){
+    let maxNumber = Math.max(n1,n2,n3);
+    console.log(maxNumber);
+}
+
+const maxBetween3Number = function(n1,n2,n3){
+    let maxNumber = Math.max(n1,n2,n3);
+    console.log(maxNumber);
+}
+
+const maxBetween3Numbers = (n1,n2,n3) => {
+    let maxNumber = Math.max(n1,n2,n3);
+    console.log(maxNumber);
+}
+
+/**
+ * 
+ * Escribe una función de declaración que acepte un arreglo y retorne el número
+más grande.
+B. Invoca la función de A usando arr = [1, 6, 2, 9] y alerta el número más grande.
+ */
+
+function getMaxNumber(arreglo){
+    let maxNumber = Math.max(...arreglo);
+    console.log(maxNumber);
+    return maxNumber;
+}
+
+const getMaxNumber1 = function(array) {
+    // console.log(Math.max(...array));
+    alert(Math.max(...array));
+    return Math.max(...array);
+}
+
+const getMaxNumber2 = (array) => {
+    // console.log(Math.max(...array));
+    alert(Math.max(...array));
+    return Math.max(...array);
+}
+
+function findNumberIntoArray(array , number){
+    let isNumberPresent = array.indexOf(number);
+    return isNumberPresent >= 0 ? console.log(true) : console.log(false) ;
+}
+
+
+function findNumberIntoArray2(array , number){
+    let isNumberPresent = array.find((elemento) => elemento == number);
+    return isNumberPresent >= 0 ? console.log(true) : console.log(false) ;
+}
+
+const findNumberIntoArray3 = function(array, number){
+    let isNumberPresent = array.find((elemento) => elemento == number);
+    return isNumberPresent >= 0 ? console.log(true) : console.log(false) ;
+}
+
+const findNumberIntoArray4 = (array, number) => {
+    let isNumberPresent = array.find((elemento) => elemento == number);
+    return isNumberPresent >= 0 ? console.log(true) : console.log(false) ;
+}
+
+
+function minBetween3Numb(n1, n2, n3){
+    let minNumber = Math.min(n1,n2,n3);
+    console.log(minNumber);
+}
