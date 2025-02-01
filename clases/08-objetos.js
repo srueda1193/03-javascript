@@ -81,5 +81,5 @@ function Persona(firstName, lastName, age){
 let person1 = new Persona('Michael', 'Valdivieso', 36);
 let person2 = new Persona('Edwin', 'Chavez', 72);
 
-console.log(person1)
-console.log(person2)
+console.log(person1);
+console.log(person2);
